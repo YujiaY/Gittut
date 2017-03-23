@@ -16,7 +16,7 @@ char *my_strcpy(char *t, char *s)
 
 	while (*t++ = *s++)
 		;
-	
+
 
 		return p;
 
@@ -36,4 +36,10 @@ int main(void)
    printf("%s\n", my_strcpy(p1, "Hello, World !!!"));
    return 0;
 }
+ 
 --from tom
+ 
+
+
+--by jerry
+ 
