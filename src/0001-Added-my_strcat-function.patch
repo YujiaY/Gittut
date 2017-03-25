@@ -1,0 +1,24 @@
+From 9507d061015bd7c76e0b78a60fed7ef8abe216f4 Mon Sep 17 00:00:00 2001
+From: YujiaY <jack.yujia.yuan@gmail.com>
+Date: Sat, 25 Mar 2017 16:24:51 +0800
+Subject: [PATCH] Added my_strcat function
+
+---
+ src/string_operations.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/string_operations.c b/src/string_operations.c
+index f5cd1f2..fa240ed 100644
+--- a/src/string_operations.c
++++ b/src/string_operations.c
+@@ -42,4 +42,4 @@ int main(void)
+ 
+ 
+ --by jerry
+- 
+\ No newline at end of file
++-- implements the strcat function
+\ No newline at end of file
+-- 
+2.12.0.windows.1
+
