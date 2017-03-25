@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include <wchar.h>
 
-size_t my_strlen(char *s)
+size_t w_strlen(const wchar_t *s)
 {
-     const char *p = s ;
+    const wchar_t *p= s ;
 
    while (*p)
       ++p;
@@ -43,3 +44,6 @@ int main(void)
 
 --by jerry
 -- implements the strcat function
+-- implements a function to return the string length of wide character string
+
+2nd try
