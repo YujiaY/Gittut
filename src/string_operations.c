@@ -42,4 +42,4 @@ int main(void)
 
 
 --by jerry
- 
+-- implements the strcat function
